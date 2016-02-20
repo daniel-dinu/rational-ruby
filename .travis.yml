@@ -7,7 +7,7 @@ install:
   - gem install rational2
 
 script:
-  - rake
+  - bundle exec rake
 
 notifications:
   email: false
