@@ -2,10 +2,16 @@ environment:
   matrix:
     - ruby_version: "19"
     - ruby_version: "19-x64"
+    - ruby_version: "20"
+    - ruby_version: "20-x64"
+    - ruby_version: "21"
+    - ruby_version: "21-x64"
+    - ruby_version: "22"
+    - ruby_version: "22-x64"
 
 install:
   - SET PATH=C:\Ruby%ruby_version%\bin;%PATH%
-  - gem install bundler
+#  - gem install bundler
 #  - bundle install --jobs=3 --retry=3 --deployment
   - bundle install --jobs=3 --retry=3
 

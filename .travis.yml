@@ -1,10 +1,14 @@
 language: ruby
 rvm:
   - 1.9.3
+  - 2.0.0
+  - 2.1.x
+  - 2.2.x
 
 install:
 #  - gem build rational2.gemspec
 #  - gem install rational2
+#  - gem install bundler
 #  - bundle install --jobs=3 --retry=3 --deployment
   - bundle install --jobs=3 --retry=3
 
