@@ -1,9 +1,12 @@
 #!/usr/bin/env ruby
 
-require 'irb'
+script_dir = File.expand_path(File.dirname(__FILE__))
+Dir.chdir(script_dir)
 
 require 'rational2'
 require './../example.rb'
 
+puts
 
+require 'irb'
 IRB.start
