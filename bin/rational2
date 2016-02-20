@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'irb'
+
+require 'rational2'
+require './../example.rb'
+
+
+IRB.start
