@@ -11,7 +11,9 @@ matrix:
   include:
     # Linux
     - rvm: 2.1.8
+      os: linux
     - rvm: 2.2.4
+      os: linux
     # OSX
     - rvm: 2.1.2
       os: osx
