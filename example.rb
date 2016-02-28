@@ -59,9 +59,9 @@ puts("p = #{p} = #{p.value}")
 
 puts
 
-puts("#{s.inspect} <  #{p.inspect} : #{s < p}")
-puts("#{s.inspect} <= #{p.inspect} : #{s <= p}")
-puts("#{s.inspect} == #{p.inspect} : #{s == p}")
-puts("#{s.inspect} != #{p.inspect} : #{s != p}")
-puts("#{s.inspect} >= #{p.inspect} : #{s >= p}")
-puts("#{s.inspect} >  #{p.inspect} : #{s > p}")
+puts("#{s} <  #{p} : #{s < p}")
+puts("#{s} <= #{p} : #{s <= p}")
+puts("#{s} == #{p} : #{s == p}")
+puts("#{s} != #{p} : #{s != p}")
+puts("#{s} >= #{p} : #{s >= p}")
+puts("#{s} >  #{p} : #{s > p}")

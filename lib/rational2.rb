@@ -15,9 +15,6 @@ module Rational2
 
       ZERO_TO_NEGATIVE_POWER_ZERO_DIVISION_ERROR_MESSAGE = '0 cannot be raised to a negative power!'
 
-      NEGATIVE_INTEGER_TO_FRACTIONAL_POWER_ERROR_MESSAGE = 'Negative number cannot be raised to a fractional power!'
-
-      FIRST_TERM_TYPE_ERROR_MESSAGE = 'The first term must be a rational or an integer value!'
       SECOND_TERM_TYPE_ERROR_MESSAGE = 'The second term must be a rational or an integer value!'
 
 
