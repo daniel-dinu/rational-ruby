@@ -20,7 +20,6 @@ matrix:
     - rvm: 2.1.3
       os: osx
 
-
 install:
   - bundle install --jobs=3 --retry=3
 
